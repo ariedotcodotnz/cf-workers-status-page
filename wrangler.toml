@@ -13,7 +13,7 @@ bucket = "out"
 entry-point = "./"
 
 [build]
-command = "yarn install --mode=update-lockfile && yarn build"
+command = "yarn install --mode=update-lockfile --no-immutable && yarn build"
 
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
